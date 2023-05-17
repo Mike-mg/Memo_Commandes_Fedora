@@ -1,4 +1,4 @@
-# Memo Commands Fedora  
+# Memo Commandes Fedora  
 ## Mise à niveau de Fédora  
 1. Installation des plugins pour l'upgrade  
     `dnf install dnf-plugin-system-upgrade` 
@@ -8,7 +8,7 @@
 
 3. Upgrade du système  
     `dnf system-upgrade download --releasever=Numero_de_version < "Numero_de_version" est la nouvelle version à mettre à jour >`  
-    
+
 4. Redémarage du système pour l'upgrade et mise à jour  
     `dnf system-upgrade reboot`  
 ---
