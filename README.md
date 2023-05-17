@@ -1,27 +1,30 @@
 # Memo Commands Fedora  
 ## Mise à niveau de Fédora  
 1. Installation des plugins pour l'upgrade  
-    `dnf install dnf-plugin-system-upgrade`  
+    `dnf install dnf-plugin-system-upgrade` 
+
 2. Néttoyage du système  
     `dnf upgrade && dnf clean all`  
+
 3. Upgrade du système  
     `dnf system-upgrade download --releasever=Numero_de_version < "Numero_de_version" est la nouvelle version à mettre à jour >`  
+    
 4. Redémarage du système pour l'upgrade et mise à jour  
     `dnf system-upgrade reboot`  
 ---
 ---
-## DNF - Gestionnaire de paquet Fedora
+## DNF - Gestionnaire de paquet Fedora  
 1. Mise à jour système et logiciels  
     `dnf update` ou `dnf upgrade`  
 
 2. Vérification des mise à jour disponible  
     `dnf check-update`
 
-3. Recherche de paquet
+3. Recherche de paquet  
 `dnf search Nom_du_paquet` ou `dnf list nom_du_paquet`  
 
 4. Information sur un paquet  
-    `dnf info nom_du_paquet`
+    `dnf info nom_du_paquet`  
 
 5. Installation d'un paquet  
     `dnf install nom_du_paquet`
