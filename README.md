@@ -1,4 +1,8 @@
 # Memo Commandes Fedora  
+#### Documentation complete ( Française ) :
+- Lien : https://doc.fedora-fr.org/wiki/Accueil
+---
+---
 ## Mise à niveau de Fédora  
 1. Installation des plugins pour l'upgrade  
     `dnf install dnf-plugin-system-upgrade` 
@@ -37,6 +41,12 @@
 
 6. Déinstaller plusieurs paquets  
     `dnf remove nom_du_paquet_1 nom_du_paquet_2 nom_du_paquet_3`  
+
+7. Info sur un paquet  
+    `dnf info nom_du_paquet`  
+
+8. Chercher sur un paquet  
+    `dnf search nom_du_paquet`  
 ---
 ---
 ## DNF - Utilisation des groupes  
@@ -51,6 +61,14 @@
 
 4. Désinstaller un groupe  
     `dnf groupremove "Nom_du_groupe"`  
+---
+---
+## DNF - Gestion des dépôts
+1. RPM Fusion libre  
+    `dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`  
+
+2. RPM Fusion non-libre (suppose que le dépôt « libre » précédent a été ajouté)  
+    `dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm`  
 ---
 ---
 ## DNF - Néttoyage système  
