@@ -17,6 +17,11 @@
     `dnf system-upgrade reboot`  
 ---
 ---
+## DNF - Fichier de configuration "dnf.conf" ( /etc/dnf/dnf.conf ) 
+![dnf.conf](readme_images/dnf.conf.png)  
+
+---
+---
 ## DNF - Gestionnaire de paquet Fedora  
 1. Mise à jour système et logiciels  
     `dnf update` ou `dnf upgrade`  
