@@ -41,12 +41,6 @@
 
 6. Déinstaller plusieurs paquets  
     `dnf remove nom_du_paquet_1 nom_du_paquet_2 nom_du_paquet_3`  
-
-7. Info sur un paquet  
-    `dnf info nom_du_paquet`  
-
-8. Chercher sur un paquet  
-    `dnf search nom_du_paquet`  
 ---
 ---
 ## DNF - Utilisation des groupes  
